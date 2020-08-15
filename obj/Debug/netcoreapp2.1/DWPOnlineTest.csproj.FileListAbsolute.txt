@@ -1,0 +1,14 @@
+C:\Users\Andrew\Projects\DWPOnlineTest\obj\Debug\netcoreapp2.1\DWPOnlineTest.csprojAssemblyReference.cache
+C:\Users\Andrew\Projects\DWPOnlineTest\obj\Debug\netcoreapp2.1\DWPOnlineTest.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Projects\DWPOnlineTest\obj\Debug\netcoreapp2.1\DWPOnlineTest.RazorAssemblyInfo.cache
+C:\Users\Andrew\Projects\DWPOnlineTest\obj\Debug\netcoreapp2.1\DWPOnlineTest.RazorAssemblyInfo.cs
+C:\Users\Andrew\Projects\DWPOnlineTest\obj\Debug\netcoreapp2.1\DWPOnlineTest.AssemblyInfoInputs.cache
+C:\Users\Andrew\Projects\DWPOnlineTest\obj\Debug\netcoreapp2.1\DWPOnlineTest.AssemblyInfo.cs
+C:\Users\Andrew\Projects\DWPOnlineTest\bin\Debug\netcoreapp2.1\DWPOnlineTest.deps.json
+C:\Users\Andrew\Projects\DWPOnlineTest\bin\Debug\netcoreapp2.1\DWPOnlineTest.runtimeconfig.json
+C:\Users\Andrew\Projects\DWPOnlineTest\bin\Debug\netcoreapp2.1\DWPOnlineTest.runtimeconfig.dev.json
+C:\Users\Andrew\Projects\DWPOnlineTest\bin\Debug\netcoreapp2.1\DWPOnlineTest.dll
+C:\Users\Andrew\Projects\DWPOnlineTest\bin\Debug\netcoreapp2.1\DWPOnlineTest.pdb
+C:\Users\Andrew\Projects\DWPOnlineTest\obj\Debug\netcoreapp2.1\DWPOnlineTest.RazorTargetAssemblyInfo.cache
+C:\Users\Andrew\Projects\DWPOnlineTest\obj\Debug\netcoreapp2.1\DWPOnlineTest.dll
+C:\Users\Andrew\Projects\DWPOnlineTest\obj\Debug\netcoreapp2.1\DWPOnlineTest.pdb
