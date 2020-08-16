@@ -20,7 +20,7 @@ namespace DWPOnlineTest
         public string endPoint { get; set; }
         public httpVerb httpMethod { get; set; }
         
-        public void RESTClient(string endPoint, httpVerb httpMethod)
+        public RestClient(string endPoint, httpVerb httpMethod)
         {
             this.endPoint = endPoint;
             this.httpMethod = httpMethod;
