@@ -20,7 +20,7 @@ namespace DWPOnlineTest
             return (angle * Math.PI) / 180;
         } 
 
-        public double distanceFromLondon(double latitude,  double longitude)
+        public decimal distanceFromLondon(double latitude,  double longitude)
         {
             double 
                 lat1 = toRadians(latitude), 
@@ -38,7 +38,7 @@ namespace DWPOnlineTest
 
             double earthRadiusMiles = 3956;
 
-            return (c * earthRadiusMiles); 
+            return (decimal)(c * earthRadiusMiles); 
         }
 
     }

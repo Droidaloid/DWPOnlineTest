@@ -12,3 +12,8 @@ C:\Users\Andrew\Projects\DWPOnlineTest\bin\Debug\netcoreapp2.1\DWPOnlineTest.pdb
 C:\Users\Andrew\Projects\DWPOnlineTest\obj\Debug\netcoreapp2.1\DWPOnlineTest.RazorTargetAssemblyInfo.cache
 C:\Users\Andrew\Projects\DWPOnlineTest\obj\Debug\netcoreapp2.1\DWPOnlineTest.dll
 C:\Users\Andrew\Projects\DWPOnlineTest\obj\Debug\netcoreapp2.1\DWPOnlineTest.pdb
+C:\Users\Andrew\Projects\DWPOnlineTest\bin\Debug\netcoreapp2.1\testhost.exe
+C:\Users\Andrew\Projects\DWPOnlineTest\bin\Debug\netcoreapp2.1\testhost.dll
+C:\Users\Andrew\Projects\DWPOnlineTest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Andrew\Projects\DWPOnlineTest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Andrew\Projects\DWPOnlineTest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
