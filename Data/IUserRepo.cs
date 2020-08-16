@@ -7,6 +7,6 @@ namespace DWPOnlineTest.Data
     {
         IEnumerable<User> GetAllUsers();
         User GetUserById(int id);
-        User GetUsersByCity(string city);
+        IEnumerable<User> GetUsersByCity(string city);
     }
 }

@@ -26,6 +26,12 @@ namespace DWPOnlineTest
             this.httpMethod = httpMethod;
         }
 
+        public RestClient()
+        {
+            this.endPoint = string.Empty;
+            this.httpMethod = httpVerb.GET;
+        }
+
         public string makeRequest()
         {
             string strResponseValue = string.Empty;
@@ -57,11 +63,18 @@ namespace DWPOnlineTest
             return strResponseValue;
         }
 
-        public IEnumerable<User> makeDeserialisedRequest()
+        public IEnumerable<User> makeDeserialisedRequestMultiple()
         {
             string response = makeRequest();
 
             return JsonConvert.DeserializeObject<IEnumerable<User>>(response);
+        }
+
+        public User makeDeserialisedRequestSingle()
+        {
+            string response = makeRequest();
+
+            return JsonConvert.DeserializeObject<User>(response);
         }
 
     }

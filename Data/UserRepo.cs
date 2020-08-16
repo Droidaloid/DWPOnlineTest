@@ -5,22 +5,31 @@ namespace DWPOnlineTest.Data
 {
     public class UserRepo : IUserRepo
     {
-        
+        private RestClient client = new RestClient();
+
         public IEnumerable<User> GetAllUsers()
         {
-            RestClient client = new RestClient("https://bpdts-test-app.herokuapp.com/users", httpVerb.GET);
-            return client.makeDeserialisedRequest();
+            client.endPoint = "https://bpdts-test-app.herokuapp.com/users";
+            client.httpMethod = httpVerb.GET;
+
+            return client.makeDeserialisedRequestMultiple();
         }
 
         public User GetUserById(int id)
         {
-            return new User();
+            client.endPoint = "https://bpdts-test-app.herokuapp.com/user/" + id.ToString();
+            client.httpMethod = httpVerb.GET;
+
+            return client.makeDeserialisedRequestSingle();
 
         }
 
-        public User GetUsersByCity(string city)
+        public IEnumerable<User> GetUsersByCity(string city)
         {
-            return new User();
+            client.endPoint = "https://bpdts-test-app.herokuapp.com/city/" + city + "/users";
+            client.httpMethod = httpVerb.GET;
+
+            return client.makeDeserialisedRequestMultiple();
         }
 
     }
