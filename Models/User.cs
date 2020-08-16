@@ -1,6 +1,6 @@
 namespace DWPOnlineTest.Models
 {
-    public class user
+    public class User
     {
         public int id { get; set; }
         public string first_name { get; set; }

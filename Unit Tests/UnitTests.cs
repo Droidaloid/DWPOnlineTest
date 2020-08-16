@@ -35,11 +35,8 @@ namespace DWPOnlineTest.UnitTests
 
                 decimal result = distanceCalculator.distanceFromLondon(latitude, longitude);
 
-
-                
                 Assert.Equal(distanceFromLondon, result);
-
-
+                
             }
     }
 
